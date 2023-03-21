@@ -7,3 +7,4 @@ linkki [gitlogiin](https://github.com/asomaki/ot-harjoitustyo/blob/master/laskar
 
 
 muutos muutos
+epäsynkronoitu muutos
