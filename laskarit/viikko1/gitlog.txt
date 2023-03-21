@@ -1,0 +1,85 @@
+commit a0bcb088344a7ce7c384a3f1f211d95dd3244632
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 17:10:41 2023 +0200
+
+    file 1 poistettu, file2 on nyt file22
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 94fc4c28836c28b06c4e35a645f6a8cd3ee37077
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 17:06:16 2023 +0200
+
+    tiedostoja-kansio ja tiedostot lisätty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5b6ecaf1067c6f8fec183cbac3dd3652cc0021f9
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 16:55:36 2023 +0200
+
+    tekstin muutos
+
+ eka.txt    | 3 +++
+ kolmas.txt | 9 ++++++++-
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+
+commit 87098e844268f37c8eac9d298d82a03499b0b9a0
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 16:51:09 2023 +0200
+
+    nimi muutettu ekaksi
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 6dd629acaa5dfc3dfda3f06bc30c239286d90cf7
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 16:46:44 2023 +0200
+
+    toinen poistettu
+
+ toinen.txt | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 9f0e86d79585e8f202adb28c3a39e3f32dde2586
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 15:57:55 2023 +0200
+
+    stuff luotu
+
+ stuff/jokunen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 95e4c8e052978e8933080c30d50141273fac026e
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 15:54:41 2023 +0200
+
+    muutoksia toiseen ja kolmanteen
+
+ kolmas.txt | 1 +
+ toinen.txt | 3 +++
+ 2 files changed, 4 insertions(+)
+
+commit b49cb0c6e9197f7261c1630edf26a4b1e3a1fc84
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Tue Mar 21 15:51:48 2023 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3201662972b19c7668f12b7e9569c349672befa1
+Author: Teija <teija.asomaki@gmail.com>
+Date:   Wed Mar 15 14:57:51 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
