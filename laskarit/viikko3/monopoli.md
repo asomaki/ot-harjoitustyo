@@ -28,6 +28,6 @@ classDiagram
             pelaaja raha
             pelaaja tontit
             pelaajan nappula    
-        {
+        }
 ```
 
