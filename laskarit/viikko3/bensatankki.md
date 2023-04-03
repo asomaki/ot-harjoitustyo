@@ -1,8 +1,8 @@
 ```mermaid
 	sequenceDiagram
-	    Main-->Machine: jotain
-	    Machine-->FuelTank: jotain2
-	    FuelTank-->Engine: jotain3
+	    Main-->>Machine: __init__
+	    Machine-->>FuelTank: fill(40)
+	    Engine-->>FuelTank: consume(10)
 
 
 
