@@ -61,6 +61,7 @@ classDiagram
         }
 	
 	class Kortti{
+	    id
 	    nimi
 	    toiminto Kortti
 	}
