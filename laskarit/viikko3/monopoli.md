@@ -1,12 +1,17 @@
 monopoli luokkakaavio
 ```mermaid
 classDiagram
-        Ruutu --> Nappula
+        Nappula --> Ruutu
+        Nappula --> Noppa
         class Nappula{
             nimi
+            ruutu
+            noppa
         }
         class Ruutu{
              nimi
         }
+        class Noppa
+             luku
 ```
 
