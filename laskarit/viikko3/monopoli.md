@@ -5,21 +5,66 @@ classDiagram
         Nappula ..> Noppa
         Nappula -- Pelaaja
         Pelaaja .. Ruutu
+	Ruutu --> Katu
+	Ruutu --> Laitos
+	Ruutu --> Mene vankilaan
+	Ruutu --> Vierailu vankilassa
+	Ruutu --> Kortti
 
-        
+
         class Nappula{
             id
             pelaaja id
             ruutu id
             noppa silmäluku
         }
+
         class Ruutu{
             id
             ruudun nimi
-            ruudun omistaja
+	    ruututyyppi id
             seuraava ruutu
         }
-        class Noppa{
+
+        class Ruututyyppi{
+	    id
+	    ruututyyppi nimi
+	    ruututyyppi toiminto
+	}
+
+	class Katu{
+	    id
+	    katu nimi
+	    katu hinta
+	    katu talot
+	    katu omistaja
+	    katu toiminto
+        }
+
+	class Mene vankilaan{
+	    id
+	    vankila toiminto
+	}
+
+	class Vierailu vankilassa{
+	    id
+	    toiminto pass
+	}
+
+	class Laitos{
+	    id
+	    laitos nimi
+	    laitos hinta
+	    laitos omistaja
+	    laitos toiminto
+        }
+	
+	class Kortti{
+	    nimi
+	    toiminto Kortti
+	}
+
+	class Noppa{
             noppa silmäluku
         }
         class Pelaaja{
