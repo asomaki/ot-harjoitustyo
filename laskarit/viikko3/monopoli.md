@@ -5,11 +5,12 @@ classDiagram
         Nappula ..> Noppa
         Nappula -- Pelaaja
         Pelaaja .. Ruutu
-	Ruutu --> Katu
-	Ruutu --> Laitos
-	Ruutu --> Mene vankilaan
-	Ruutu --> Vierailu vankilassa
-	Ruutu --> Kortti
+	Ruutu --|> Ruututyyppi
+	Ruututyyppi --|> Katu
+	Ruututyyppi --|> Laitos
+	Ruututyyppi --|> Mene vankilaan
+	Ruututyyppi --|> Vierailu vankilassa
+	Ruututyyppi --|> Kortti
 
 
         class Nappula{
