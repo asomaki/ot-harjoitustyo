@@ -1,5 +1,6 @@
 ```mermaid
 	sequenceDiagram
+	    participant Main as Main
 	    participant M as Machine
 	    participant F as FuelTank
 	    participant E as Engine    
@@ -16,7 +17,7 @@
 	    E-->>M: True
 	    M-->>E: use_energy()
 	    E-->>F: consume(10)
-	
+	    
 
 
 
