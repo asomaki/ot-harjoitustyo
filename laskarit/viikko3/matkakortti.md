@@ -15,5 +15,5 @@
 	    Lukijalaite -->> Matkakortti: vahenna_arvoa(1.5)
 	    Lukijalaite ->> Main: True
 	    Main -->> Lukijalaite: osta_lippu(kallen_kortti, 2)
-	    Lukijalaite -->> Main: False
+	    Lukijalaite ->> Main: False
 ```
