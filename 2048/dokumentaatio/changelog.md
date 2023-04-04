@@ -1,0 +1,1 @@
+- peli avautuu, ruudukko on tehty
